@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.livebythecode.dvn.androidcharts" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TeleRikChart"
+            android:label="@string/title_activity_tele_rik_chart" >
+        </activity>
+        <activity
+            android:name=".MPAndroidChart"
+            android:label="@string/title_activity_mpandroid_chart" >
+        </activity>
+        <activity
+            android:name=".AndroidPlot"
+            android:label="@string/title_activity_android_plot" >
+        </activity>
+        <activity
+            android:name=".AChartEngine"
+            android:label="@string/title_activity_achart_engine" >
+        </activity>
+        <activity
+            android:name=".ShinobiChart"
+            android:label="@string/title_activity_shinobi_chart" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name=".AFreeChart"
+            android:label="@string/title_activity_afree_chart" >
+        </activity>
+    </application>
+
+</manifest>

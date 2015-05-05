@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidCharts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tele_rik_chart">TeleRikChart</string>
+    <string name="title_activity_mpandroid_chart">MPAndroidChart</string>
+    <string name="title_activity_android_plot">AndroidPlot</string>
+    <string name="title_activity_achart_engine">AChartEngine</string>
+    <string name="title_activity_shinobi_chart">ShinobiChart</string>
+    <string name="title_activity_afree_chart">AFreeChart</string>
+
+</resources>
